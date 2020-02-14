@@ -1,15 +1,15 @@
 const withMDX = require("@next/mdx")({
-  extension: /\.mdx?$/,
-  options: {
-    mdPlugins: [],
-    hastPlugins: [],
-  },
+  extension: /\.(md|mdx)?$/,
+  // options: {
+  // mdPlugins: [],
+  // hastPlugins: [],
+  // },
 })
 
 module.exports = withMDX({
-  pageExtensions: ["js", "jsx", "mdx"],
+  pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
 
-  webpack(config, options) {
-    return config
-  },
+  // webpack(config, options) {
+  // return config
+  // },
 })
