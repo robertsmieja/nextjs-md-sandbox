@@ -1,8 +1,20 @@
+// mdx remark plugins
+const codeScreenshot = require("remark-code-screenshot")
+const images = require("remark-images")
+const toc = require("remark-toc")
+
 const withMDX = require("@next/mdx")({
   extension: /\.(md|mdx)?$/,
+  options: {
+    remarkPlugins: [
+      //codeScreenshot,
+      images,
+      toc,
+    ],
+  },
   // options: {
-  // mdPlugins: [],
-  // hastPlugins: [],
+  // remarkPlugins: [],
+  // rehypePlugins: [],
   // },
 })
 
