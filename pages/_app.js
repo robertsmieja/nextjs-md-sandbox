@@ -1,3 +1,4 @@
+import "../src/prism-material-dark.css"
 import "../src/styles.css"
 
 // This default export is required in a new `pages/_app.js` file.

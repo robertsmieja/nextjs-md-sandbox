@@ -1,6 +1,7 @@
 {
   "author": "Robert Smieja",
   "dependencies": {
+    "@mapbox/rehype-prism": "^0.4.0",
     "@mdx-js/loader": "^1.5.5",
     "@next/mdx": "^9.2.1",
     "next": "^9.2.1",

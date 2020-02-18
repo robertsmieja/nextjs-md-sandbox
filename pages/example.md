@@ -8,8 +8,19 @@ An example markdown file as a demo
 
 ## Code Snippets
 
-```sh
-ls | grep -e -i some_file | xargs rm -rf
+### JavaScript
+
+```js
+const foo = `Modern JS Example`
+
+console.log(foo)
+```
+
+### Shell
+
+```shell
+export TARGET_FILE="foo"
+ls | grep -e -i "${TARGET_FILE}" | xargs rm -rf
 ```
 
 ## Images
