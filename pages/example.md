@@ -31,3 +31,5 @@ https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.p
 ## Text with Keywords
 
 Some text describing what a _football_ is
+
+[Link back to index](../index)
